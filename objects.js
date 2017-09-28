@@ -1,9 +1,22 @@
-/* 3 Ways of declaring Objects in JS */
+/* WAY 1 TO CREATE AN OBJECT IN JS */
+// with new Object()
+var myFirstObject = new Object(); 
+myFirstObject.color = 'red';
 
-var myFirstObject = new Object(); // with new Object()
+console.log('myFirstObject', myFirstObject);
 
-var mySecondObject = {}; // Initializing to {}
 
+
+/* WAY 2 TO CREATE AN OBJECT IN JS */
+// Initializing to {}
+var mySecondObject = {}; 
+mySecondObject.color = 'blue';
+
+console.log('mySecondObject', mySecondObject);
+
+
+
+/* WAY 3 TO CREATE AN OBJECT IN JS */
 function constructorObject() {}; // Constructor function or class builder
 /* 
 	Con esta forma creamos una función que nos servirá
@@ -12,7 +25,7 @@ function constructorObject() {}; // Constructor function or class builder
 	para crear el objeto basado en esta función. 
 */
 
-// Example: 
+// EXAMPLE
 
 // Instanciamos y creamos el objeto car
 function car(model, color, gas) {
@@ -24,3 +37,34 @@ function car(model, color, gas) {
 var myCar = new car('nissan', 'red');
 
 console.log('myCar', myCar);
+
+/* 
+	El objeto myCar ahora contiene 
+	la función 'car' dentro su propiedad llamada constructor
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
