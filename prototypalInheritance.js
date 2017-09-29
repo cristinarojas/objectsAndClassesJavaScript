@@ -30,7 +30,7 @@ alert(person.prototype.constructor === person); // true
 
 // THEN
 alert(ObjectCriss.constructor === person); // function person(name) {this.name = name;} === person TRUE
-
+// Tanto la función constructora como el constructor de su prototipo, son del mismo tipo.
 
 
 
