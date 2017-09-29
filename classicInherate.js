@@ -1,3 +1,5 @@
+// La clásica necesita de funciones constructoras 
+
 // person Constructor function
 function person(name) {
 	this.name = name;
